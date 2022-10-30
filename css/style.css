@@ -1,0 +1,121 @@
+body {
+  background-color: #ffd845;
+  font-family: "Roboto", sans-serif;
+  width: 100vh;
+  overflow-x: hidden;
+}
+.container {
+  width: 1318px;
+  padding: 0px;
+  margin: 50px 100px;
+}
+.conspan {
+  display: flex;
+  justify-content: end;
+   padding-bottom: 70px;
+}
+.img {
+   padding-right: 233px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.lable {
+  position: relative;
+}
+.iconca {
+  position: absolute;
+  top: 21px;
+  right: 28px;
+}
+.input {
+  width: 260px;
+  height: 60px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.btn {
+  width: 200px;
+  height: 60px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.btn:hover {
+  width: 200px;
+  height: 60px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.cardd {
+  width: 307px;
+  height: 423px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  padding: 30px;
+  position: relative;
+  margin-top: 30px;
+}
+.intro {
+  margin-top: 100px;
+}
+
+.div {
+  position: absolute;
+  width: 536px;
+  right: 0;
+  top: 0px;
+  background: #FFEDA9;
+  border: 2px solid #000000;
+  padding: 30px 30px 30px 100px;
+  z-index: 4;
+  transform: translatex(400%);
+  -webkit-transform: translatex(400%);
+  -moz-transform: translatex(400%);
+  -ms-transform: translatex(400%);
+  -o-transform: translatex(400%);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.div_wrap{
+  position: absolute;
+  width: 536px;
+  right: 0;
+  top: 0px;
+  background: #FFEDA9;
+  border: 2px solid #000000;
+  padding: 30px 30px 30px 100px;
+  z-index: 4;
+  transform: translatex(0);
+  -webkit-transform: translatex(0);
+  -moz-transform: translatex(0);
+  -ms-transform: translatex(0);
+  -o-transform: translatex(0);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
